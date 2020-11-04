@@ -170,7 +170,7 @@ input#coffee {
     .banner 
     {
         position: relative;
-        background-size: contain;
+        background-size: cover;
     }
     .banner .logo 
     {
