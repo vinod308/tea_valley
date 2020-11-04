@@ -158,26 +158,27 @@ input#coffee {
 {
     .text_center h1 
     {
-        font-size: 1.375rem;
+        font-size: 13px;
         text-align: center;
+        margin-top:50px;
     } 
     .text_center h2 
     {
-        font-size: 1rem;
-        margin-top:10px;
-        text-align: center;
-    }
+        font-size: 11px;
+        margin-top:-4px;
+         text-align: center;
+    } 
     .banner 
     {
         position: relative;
-        background-size: cover;
     }
     .banner .logo 
-    {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+    {  
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        
     }
     .footer 
     {
