@@ -160,7 +160,7 @@ input#coffee {
     {
         font-size: 13px;
         text-align: center;
-        margin-top:40px;
+        margin-top:30px;
     } 
     .text_center h2 
     {
@@ -178,8 +178,17 @@ input#coffee {
             top: 20%;
             left: 50%;
             transform: translate(-50%,-50%);
-        
     }
+         input#tea {
+            width: 72%;
+            display: inline;
+            margin: 0 26px;
+        }
+        input#coffee {
+            width: 72%;
+            display: inline;
+            margin: 0 5px;
+        }
     .footer 
     {
         padding-bottom:10px;
