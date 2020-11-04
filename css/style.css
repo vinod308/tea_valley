@@ -8,12 +8,6 @@
 
 .banner 
 {
-    /* width: 100vw;
-    height: 100vh;
-    background-image: url("../images/Banner.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative; */
     min-height: 56.25vw;
     background-position: top;
     background-repeat: no-repeat;
@@ -90,12 +84,7 @@ button.btn.button_submit
 }
 .thankyou_image 
 {
-    /* width: 100vw;
-    height: 100vh;
-    margin-top: 40px;
-    background-image: url("../images/Thank-you-Card.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat; */
+    
     margin-top: 40px;
     min-height: 56.25vw;
     background-position: top;
@@ -154,6 +143,16 @@ input#coffee {
     margin: 0 20px;
 }
 
+.get_details button.btn.button_submit 
+{   
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #058CB9;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 16px;
+}
+
 @media(max-width: 768px) 
 {
     .text_center h1 
@@ -179,16 +178,18 @@ input#coffee {
             left: 50%;
             transform: translate(-50%,-50%);
     }
-         input#tea {
+    input#tea 
+    {
             width: 72%;
             display: inline;
             margin: 0 26px;
-        }
-        input#coffee {
+    }
+
+    input#coffee {
             width: 72%;
             display: inline;
             margin: 0 5px;
-        }
+    }
     .footer 
     {
         padding-bottom:10px;
