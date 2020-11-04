@@ -67,6 +67,7 @@
 .feedback_section p{
     color: #058cb9;
     font-size: 1.6rem;
+    line-height: 1.6rem;
 }
 .questions_mcq p
 {
@@ -99,7 +100,7 @@ button.btn.button_submit
     min-height: 56.25vw;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: 100% 100%; 
     background-image: url("../images/Thank-you-Card.jpg");
     
 }
