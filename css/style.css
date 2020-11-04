@@ -8,13 +8,21 @@
 
 .banner 
 {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
     background-image: url("../images/Banner.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative; */
+    min-height: 56.25vw;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
     position: relative;
+    background-image: url("../images/Banner.jpg");
+    
 }
+
 .banner .text_center 
 {
     position: absolute;
@@ -81,12 +89,18 @@ button.btn.button_submit
 }
 .thankyou_image 
 {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
     margin-top: 40px;
     background-image: url("../images/Thank-you-Card.jpg");
     background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    margin-top: 40px;
+    min-height: 56.25vw;
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url("../images/Thank-you-Card.jpg");
     
 }
 .footer 
@@ -155,6 +169,7 @@ input#coffee {
     .banner 
     {
         position: relative;
+        background-size: contain;
     }
     .banner .logo 
     {
@@ -165,6 +180,6 @@ input#coffee {
     }
     .footer 
     {
-        padding: 0 10px;
+        padding-bottom:10px;
     }
 }
