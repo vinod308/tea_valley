@@ -62,6 +62,8 @@
     color: #058cb9;
     font-size: 1.2rem;
     line-height: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .questions_mcq p
 {
