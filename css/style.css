@@ -153,6 +153,7 @@ input#coffee {
     border-radius: 16px;
 }
 
+/* mobile section */
 @media(max-width: 768px) 
 {
     .text_center h1 
@@ -177,6 +178,10 @@ input#coffee {
             top: 20%;
             left: 50%;
             transform: translate(-50%,-50%);
+    }
+
+    .logo img{
+        width: 86px;
     }
     input#tea 
     {
