@@ -164,10 +164,10 @@ input#coffee {
     } 
     .text_center h2 
     {
-        font-size: 13px;
+        font-size: 0.8125rem;
         margin-top:-4px;
          text-align: center;
-         line-height: 15px;
+         line-height: 0.8125rem;
     } 
     .banner 
     {
