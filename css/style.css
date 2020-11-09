@@ -38,7 +38,7 @@
     font-weight: bold;
     
 }
-.text_center h2
+.text_center h3
 {
     font-size: 2rem;
     color: white;
@@ -262,7 +262,6 @@ input#coffee {
         border-radius: 16px;
         margin: 0 auto;
     }
-    
     .button_submission .button:hover 
     {
     background-color: #d33f8d;
@@ -276,18 +275,7 @@ input#coffee {
     {
     color: white;
     }
-    /* input#tea 
-    {
-            width: 72%;
-            display: inline;
-            margin: 0 26px;
-    }
-
-    input#coffee {
-            width: 72%;
-            display: inline;
-            margin: 0 5px;
-    } */
+    
     .footer 
     {
         padding-bottom:10px;
