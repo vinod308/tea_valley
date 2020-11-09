@@ -104,9 +104,10 @@
   
   .button_submission .button:hover 
   {
-    background-color: #d33f8d;
+    background-color:#444D2f;
     cursor: pointer;
   }
+
   .button_submission .button a {
     text-decoration: none;
     color: white;
@@ -116,6 +117,7 @@
   {
     color: white;
   }
+
   #container {
     width:50%;
     margin:auto;
@@ -132,6 +134,7 @@
    {
     margin: 0 3px;
    }
+
   ul {
     list-style-type: none;
     padding: 0;
@@ -231,12 +234,12 @@ input#coffee {
         margin: 0 auto;
         
       }
-    .text_center h2 
+    .text_center h3 
     {
         font-size: 0.8125rem;
         margin-top:-4px;
-         text-align: center;
-         line-height: 0.8125rem;
+        text-align: center;
+        line-height: 0.8125rem;
     } 
     .banner 
     {
@@ -255,27 +258,14 @@ input#coffee {
     }
     .button_submission .button {
         width: 30%;
-        font-weight: bold;
-        background-color: #058CB9;
-        color: white!important;
-        padding: 10px 20px;
-        border-radius: 16px;
         margin: 0 auto;
     }
+
     .button_submission .button:hover 
     {
-    background-color: #d33f8d;
+    background-color: #444D2f;
     cursor: pointer;
     }
-    .button_submission .button a {
-    text-decoration: none;
-    color: white;
-    } 
-    .button_submission .button a:hover
-    {
-    color: white;
-    }
-    
     .footer 
     {
         padding-bottom:10px;
