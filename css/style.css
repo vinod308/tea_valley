@@ -253,15 +253,19 @@ input#coffee {
             transform: translate(-50%,-50%);
     }
 
-    .logo img{
+    .logo img
+    {
         width: 86px;
     }
+
     .button_submission .button {
         width: 30%;
         margin: 0 auto;
     }
+
     .footer 
     {
         padding-bottom:10px;
     }
+    
 }
