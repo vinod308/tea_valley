@@ -104,7 +104,6 @@
   
   .button_submission .button:hover 
   {
-    background-color:#444D2f;
     cursor: pointer;
   }
 
@@ -139,6 +138,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    list-style-position: outside;
   }
   
   #prev {
@@ -267,5 +267,5 @@ input#coffee {
     {
         padding-bottom:10px;
     }
-    
+
 }
