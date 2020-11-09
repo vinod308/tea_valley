@@ -260,12 +260,6 @@ input#coffee {
         width: 30%;
         margin: 0 auto;
     }
-
-    .button_submission .button:hover 
-    {
-    background-color: #444D2f;
-    cursor: pointer;
-    }
     .footer 
     {
         padding-bottom:10px;
