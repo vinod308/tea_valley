@@ -226,6 +226,11 @@ input#coffee {
         text-align: center;
         margin-top:30px;
     } 
+    #container {
+        width:90%;
+        margin: 0 auto;
+        
+      }
     .text_center h2 
     {
         font-size: 0.8125rem;
@@ -248,7 +253,30 @@ input#coffee {
     .logo img{
         width: 86px;
     }
-    input#tea 
+    .button_submission .button {
+        width: 30%;
+        font-weight: bold;
+        background-color: #058CB9;
+        color: white!important;
+        padding: 10px 20px;
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+    
+    .button_submission .button:hover 
+    {
+    background-color: #d33f8d;
+    cursor: pointer;
+    }
+    .button_submission .button a {
+    text-decoration: none;
+    color: white;
+    } 
+    .button_submission .button a:hover
+    {
+    color: white;
+    }
+    /* input#tea 
     {
             width: 72%;
             display: inline;
@@ -259,7 +287,7 @@ input#coffee {
             width: 72%;
             display: inline;
             margin: 0 5px;
-    }
+    } */
     .footer 
     {
         padding-bottom:10px;
