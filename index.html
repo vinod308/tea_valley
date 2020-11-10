@@ -77,37 +77,43 @@
         
       </div>
       <div class="modal-body">
-      <form action="#">
+      <form action="#" method="POST" onsubmit="return validate()">
         <div class="form-group">
           <label for="name">Name:</label>
-          <input type="text" class="form-control" id="name" placeholder="name" autocomplete="off">
+          <input type="text" class="form-control" id="name" name="name" placeholder="name" autocomplete="off" required>
+          <span id="username" class="text-danger font-weight-bold"> </span>
         </div>
       
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Email">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+          <span id="mail" class="text-danger font-weight-bold"> </span>
+
         </div>
         <div class="form-group">
           <label for="telephone">Phone no:</label>
-          <input type="tel" class="form-control" id="telephone" placeholder="Enter phone no." autocomplete="off">
+          <input type="tel" class="form-control" id="telephone" name="phoneno" placeholder="Enter phone no." autocomplete="off" required>
+          <span id="phoneno" class="text-danger font-weight-bold"> </span>
         </div>
       
       <div class="form-group">
         <label for="Address">Address</label>
-        <input type="text" class="form-control" id="Address" placeholder="1234 Main Market" autocomplete="off">
+        <input type="text" class="form-control" id="Address" placeholder="1234 Main Market" name="address" autocomplete="off" required>
+        <span id="address" class="text-danger font-weight-bold"> </span>
       </div>
       <div class="form-group">
         <label for="Address2">Address 2</label>
-        <input type="text" class="form-control" id="Address2" placeholder="Apartment, or floor" autocomplete="off">
+        <input type="text" class="form-control" id="Address2" placeholder="Apartment, or floor" name="address2" autocomplete="off" required>
+        <span id="address2" class="text-danger font-weight-bold"> </span>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="city">City</label>
-          <input type="text" class="form-control" id="city">
+          <input type="text" class="form-control" id="city" name="city">
         </div>
         <div class="form-group col-md-4">
           <label for="State">State</label>
-          <select id="State" class="form-control">
+          <select id="State" class="form-control" name="state">
             <option selected>Choose...</option>
             <option>Andhra Pradesh</option>
             <option>Arunachal Pradesh</option>
@@ -140,26 +146,19 @@
 
 
           </select>
+          <span id="states" class="text-danger font-weight-bold"> </span>
         </div>
         <div class="form-group col-md-2">
           <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" class="form-control" id="inputZip" name="pincode">
         </div>
+        <span id="city_zip" class="text-danger font-weight-bold"> </span>
       </div>
      <div class="get_details" style="text-align: center;">
-    <button type="submit" onclick="sweetalertjs()" class="btn btn-default button_submit">Submit</button>
+    <button type="submit" class="btn btn-default button_submit">Submit</button>
      </div>
     </form>
-      </div>
-
-      <script>
-        function sweetalertjs()
-        {
-          swal("Thank You!", "We will be sending a gift hamper.!", "success").then(function() {
-          window.location = "https://teavalley.com/";
-     });;
-        }
-      </script>
+  </div>
       
       
     <!-- Optional JavaScript -->

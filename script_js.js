@@ -185,3 +185,100 @@
     // return score;
   }
 })();
+
+
+function validate(){
+
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value; 
+  var telephone = document.getElementById('telephone').value; 
+  var Address = document.getElementById('Address').value; 
+  var Address2 = document.getElementById('Address2').value;
+  var city = document.getElementById('city').value; 
+  var inputZip = document.getElementById('inputZip').value; 
+  
+  
+  if(name == "" ){
+  document.getElementById('username').innerHTML="Name can't be black";
+  return false;
+  }
+  
+  if(name.length <= 2) {
+  document.getElementById('username').innerHTML="Enter the Full Name";
+  return false;
+  }
+  
+  if(!isNaN(name)) {
+  document.getElementById('username').innerHTML=" Only Characters Allowed";
+  return false;
+  }
+  
+  if (email == "") {
+  document.getElementById('mail').innerHTML="Email can't be black";
+  return false;
+  }
+  
+  if (email.indexOf('@')<= 0) {
+  document.getElementById('mail').innerHTML="Email is not Vaild";
+  return false;
+  }
+  
+  if( (email.charAt(email.length-4)!='.') &&  (email.charAt(email.length-3)!='.') ){
+  document.getElementById('mail').innerHTML="Email is not Vaild";
+  return false;
+  }
+  
+  if (telephone == "") {
+  document.getElementById('phoneno').innerHTML="Phone Number can't be black";
+  return false;
+  }
+  
+  if (telephone.length != 10) {
+  document.getElementById('phoneno').innerHTML="Phone Number must be 10 Digit ";
+  return false;
+  }
+  
+  if (Address == "") {
+  document.getElementById('address').innerHTML="Address can't be black";
+  return false;
+  }
+  if(Address.length <= 4) {
+  document.getElementById('address').innerHTML="Enter the Full Address";
+  return false;
+  }
+  
+  if (Address2 == "") {
+  document.getElementById('address2').innerHTML="Address can't be black";
+  return false;
+  }
+  if(Address2.length <= 4) {
+  document.getElementById('address2').innerHTML="Enter the Full Address";
+  return false;
+  }
+  
+  if (city == "") {
+  document.getElementById('city_zip').innerHTML="City can't be black";
+  return false;
+  }
+  if(city.length <= 2) {
+  document.getElementById('city_zip').innerHTML="Enter the Full Name City";
+  return false;
+  }
+  
+  if (inputZip == "") {
+  document.getElementById('city_zip').innerHTML=" Pincode can't be black";
+  return false;
+  }
+  
+  if(inputZip.length != 6) {
+  document.getElementById('city_zip').innerHTML="Pincode must be 6 Digit ";
+  return false;
+  }
+}
+
+ function sweetalertjs()
+        {
+          swal("Thank You!", "We will be sending a gift hamper.!", "success").then(function() {
+          window.location = "https://teavalley.com/";
+   });
+        }
