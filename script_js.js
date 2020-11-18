@@ -1,42 +1,42 @@
 (function() {
   var questions = [{
-    question: "*1.Why do you drink tea?",
+    question: "*1. Why do you drink tea?",
     choices: ["Health Benefits-Diet Support/Detox","Habit and Routine","Relaxation","Medicinal(to provide energy etc.)","Alternative to Coffee","Socialize and Get Together","I don't drink tea","Other"],
     correctAnswer: 2
   }, {
-    question: "*2.How often do you drink tea?",
+    question: "*2. How often do you drink tea?",
     choices: ["Daily","2-3 times in week","Once a week","Occasionally","Never"],
     correctAnswer: 4
   }, {
-    question: "*3.Where do you typically enjoy your tea?",
+    question: "*3. Where do you typically enjoy your tea?",
     choices: ["At Home","At Tea Shop/Cafe","At Work","Street Tea Stalls"],
     correctAnswer: 0
   }, {
-    question: "*4.What kind of tea do you like to drink most?",
+    question: "*4. What kind of tea do you like to drink most?",
     choices: ["Kadak","Aromatic","Malty(thicker texture)","Without milk"],
     correctAnswer: 3
   }, {
-    question: "*5.Tick Your Preference with respect to Tea?",
+    question: "*5. Tick Your Preference with respect to Tea?",
     choices: ["Price(Price matters the most to me)","Availability/Convenience(which is available nearby, regardless of the price)","Quality/Taste(I don't mind paying a premium for good quality tea)","Family Preference(I buy what my family prefer to drink)","Never"],
     correctAnswer: 4
   },{
-    question: "*6.How much do you typically spend on a cup of tea?",
+    question: "*6. How much do you typically spend on a cup of tea?",
     choices: ["Below Rs.100","Rs.100-Rs.200","Rs.200-Rs.300","Above Rs.300"],
     correctAnswer: 4
   },{
-    question: "*7.Which is the best quality of tea that comes sto your mind first?",
+    question: "*7. Which is the best quality of tea that comes sto your mind first?",
     choices: ["Assam","Darjeeling","Munnar","All of them","None of them"],
     correctAnswer: 4
   },{
-    question: "*8.How did you get to know about tea valley tea?",
+    question: "*8. How did you get to know about tea valley tea?",
     choices: ["TV advertisement","Newspaper","Hoardings","Internet","Amazon /Flipkart","Retail store","Friend/family recommendation","Other"],
     correctAnswer: 4
   },{
-    question: "*9.What drives you to a new cafe?",
+    question: "*9. What drives you to a new cafe?",
     choices: ["Friend's recommendation","Bloggers/Influencers","My willingness to try out new cafe","Online Media-Zomato/Facebook", "Brand Communication and Advertising"],
     correctAnswer: 4
   },{
-    question: "*10.What is your age?",
+    question: "*10. What is your age?",
     choices: ["18 to 24","25 to 34","35 to 44","45 to 54","55 to 64","65 to 74","75 or older"],
     correctAnswer: 4
   }];
@@ -186,6 +186,26 @@
   }
 })();
 
+function sweetalertjs() 
+{
+  swal({
+    title: "xxx",
+    type: "warning",
+    showCancelButton: true
+  },
+  function(isConfirm) {
+    debugger;
+    setTimeout(function() {
+      if (isConfirm) {
+        swal("yes, do it!");
+      } else {
+        swal("cannel!");
+      }
+    }, 400)
+  }
+);
+
+}
 
 function validate(){
 
@@ -274,11 +294,17 @@ function validate(){
   document.getElementById('city_zip').innerHTML="Pincode must be 6 Digit ";
   return false;
   }
+
+ sweetalertjs() ;
 }
 
- function sweetalertjs()
-        {
-          swal("Thank You!", "We will be sending a gift hamper.!", "success").then(function() {
-          window.location = "https://teavalley.com/";
-   });
-        }
+ 
+
+// function sweetalertjs() 
+// {
+//   Swal.fire(
+//     'Thank you!',
+//     'We will be sending a gift hamper.!',
+//     'success'
+//   )
+// }
